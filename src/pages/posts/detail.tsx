@@ -1,5 +1,10 @@
 import React from 'react';
+import PostDetail from '../../components/PostDetail';
 
-export default function Detail() {
-  return <div></div>;
+export default function PostPage() {
+  return (
+    <>
+      <PostDetail />
+    </>
+  );
 }
